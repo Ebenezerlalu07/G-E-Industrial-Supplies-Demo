@@ -1,0 +1,54 @@
+    .banner {
+        position: relative;
+        background: url(/assets/images/Brands-we-carry-1.jpg) no-repeat center center/cover;
+        height: 300px;
+    }
+
+    .banner-text {
+        position: absolute;
+        bottom: 20px;
+        left: 30px;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .breadcrumb {
+        background: #f8f9fa;
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+    .brand-card {
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        background: #fff;
+    }
+
+    .brand-logo {
+        width: 100%;
+
+    }
+
+    .btn-linecard {
+        background-color: #b71c1c;
+        /* deep red */
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        /* pill shape */
+        padding: 0.75rem 2rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-linecard:hover {
+        background-color: #9a0007;
+        color: #fff;
+    }

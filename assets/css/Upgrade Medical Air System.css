@@ -1,0 +1,85 @@
+    .banner {
+        position: relative;
+        background: url(/assets/images/upgrade-banner.jpg) no-repeat center center/cover;
+        height: 300px;
+    }
+
+    .project-details p {
+        margin-bottom: 0.5rem;
+    }
+
+    .back-btn {
+        margin-top: 2rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    .banner-text {
+        position: absolute;
+        bottom: 20px;
+        left: 30px;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .breadcrumb {
+        background: #f8f9fa;
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+
+    .product-box {
+        border: 1px solid #ddd;
+        padding: 20px;
+        text-align: center;
+        background: #fff;
+        font-weight: 600;
+        color: #002060;
+        /* Dark blue text */
+    }
+
+    .section-title {
+        color: #b22222;
+        /* Firebrick red */
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    .btn-download {
+        background-color: #b22222;
+        color: #fff;
+        border-radius: 30px;
+        padding: 10px 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .btn-download:hover {
+        background-color: #8b0000;
+        color: white;
+        /* Darker red on hover */
+    }
+
+    .cta-banner {
+        background-color: #1e2b66;
+        /* Dark blue */
+        color: #fff;
+        padding: 20px 0;
+    }
+
+    .cta-banner a {
+        color: #fff;
+    }
+
+    .cta-banner a:hover {
+        color: #ddd;
+    }
