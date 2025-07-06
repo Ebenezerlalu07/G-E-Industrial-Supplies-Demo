@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G&E Industrial Supplies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/style.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/otherbrands.css">
+
+</head>
+
+<body>
+
+    <!-- Fixed Brochure Download & WhatsApp Button -->
+    <div class="fixed-buttons-inline">
+        <a href="https://www.geindustrialsupplies.com/wp-content/themes/hello-elementor/assets/pdf/brochure-compressed.pdf"
+            download class="btn btn-danger me-2">
+            Download Brochure
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=0019159866713&text&type=phone_number&app_absent=0" target="_blank"
+            class="btn btn-success rounded-circle">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container-fluid">
+            <!-- Logo (left) -->
+            <a class="navbar-brand" href="/index.html">
+                <img src="/assets/images/logo.png" alt="Logo">
+            </a>
+
+            <!-- Right-aligned group -->
+            <div class="ms-auto right-group">
+                <!-- Search bar -->
+                <form class="d-none d-lg-flex align-items-center">
+                    <input class="search-input" type="search" placeholder="Search ..." aria-label="Search">
+                    <button type="submit" class="btn p-0 ms-2">
+                        <i class="fas fa-search text-danger"></i>
+                    </button>
+                </form>
+
+
+                <div class="separator d-none d-lg-block"></div>
+
+                <!-- Capability Statement -->
+                <a href="/assets/images/capabilities-statement.pdf" class="text-dark text-center d-none d-lg-block">
+                    <img class="icons" src="/assets/images/file.png" alt=""><br>
+                    <span class="icon-label">Capability Statement</span>
+                </a>
+
+                <div class="separator d-none d-lg-block"></div>
+
+                <!-- E-Portal -->
+                <a href="/pages/login.html" class="text-dark text-center d-none d-lg-block">
+                    <img class="icons" src="/assets/images/user.png"><br>
+                    <span class="icon-label">E-Portal</span>
+                </a>
+
+                <div class="separator d-none d-lg-block"></div>
+
+                <!-- Call -->
+                <a href="tel: +1 915 518 6137" class="text-dark text-center d-none d-lg-block">
+                    <img class="icons" src="/assets/images/phone.png"><br>
+                    <span class="icon-label">Call</span>
+                </a>
+
+                <div class="separator d-none d-lg-block"></div>
+
+                <!-- Email -->
+                <a href="mailto:sales@geindustrialsupplies.com" class="text-dark text-center d-none d-lg-block">
+                    <img class="icons" src="/assets/images/mail.png"><br>
+                    <span class="icon-label">Email</span>
+                </a>
+
+                <!-- Menu Button -->
+                <button class="menu-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
+                    <i class="fas fa-bars me-1"></i> MENU
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Offcanvas Sidebar -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu">
+
+        <div class="offcanvas-body">
+            <ul class="list-unstyled main-menu">
+                <li><a href="/index.html" class="nav-link">Home</a></li>
+                <li><a href="/pages/about.html" class="nav-link">About Us</a></li>
+                <li>
+                    <a href="#" class="nav-link" id="productsToggle">Products</a>
+                    <ul class="list-unstyled submenu" id="productsSubmenu">
+                        <li><a href="/products/BeaconMedaes.html" class="nav-link">BeaconMedaes</a></li>
+                        <li><a href="/products/Forbes Marshall.html" class="nav-link">Forbes Marshall</a></li>
+                        <li><a href="/products/FSCurtis.html" class="nav-link">FSCurtis</a></li>
+                        <li><a href="/products/Isel.html" class="nav-link">Isel</a></li>
+                        <li><a href="/products/Lochinvar.html" class="nav-link">Lochinvar</a></li>
+                        <li><a href="/products/parker.html" class="nav-link">Parker</a></li>
+                        <li><a href="/products/Precision Boilers.html" class="nav-link">Precision Boilers</a></li>
+                        <li><a href="/products/Sensus.html" class="nav-link">Sensus</a></li>
+                        <li><a href="/products/US Seal MFQ.html" class="nav-link">US Seal MFQ</a></li>
+                        <li><a href="/pages/otherbrands.html" class="nav-link">Other Brands We Carry</a></li>
+                    </ul>
+                </li>
+                <li><a href="/pages/service.html" class="nav-link">Services</a></li>
+                <li><a href="/pages/project.html" class="nav-link">Projects</a></li>
+                <li><a href="/pages/career.html" class="nav-link">Career</a></li>
+                <li><a href="/pages/contact.html" class="nav-link">Contact Us</a></li>
+                <br><br><br><br><br><br><br>
+                <center class="align-items-center">
+                    <button type="button" class="btn  d-lg-none close-top-right"
+                        style="font-size: 2rem; padding: 0.5rem 1rem;" data-bs-dismiss="offcanvas">
+                        ✕
+                    </button>
+                </center>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-text">Other Brands We Carry</div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="breadcrumb">
+        <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Other Brands We Carry</li>
+        </ol>
+    </nav><br><br>
+
+    <!-- Content -->
+    <section class="brand-lists scroll-fade">
+        <div class="container py-5">
+            <!-- Brand 1 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/alkin-logo.webp" alt="Alkin Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>Alkin has been manufacturing high pressure air compressors since 1990. The top of the line
+                        compressors provide clean air for an array of applications ranging from diving and industrial to
+                        military and naval. Alkin compressors is a leading high pressure air compressor manufacturers in
+                        the
+                        world for designing scuba compressors, paint ball compressors, air gun compressors, fill
+                        stations
+                        and purifying systems.</p>
+                </div>
+            </div>
+
+            <!-- Brand 2 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/apollo-values.png" alt="Apollo Valves Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>Actuators & Controls, Automatic Control Valves, Backflow Preventers, Balancing Valves, Ball
+                        Valves,
+                        Butterfly Valves, Gates, Globes & Checks, Medical Gas Valves, Mixing Valves, Needle Valves,
+                        Pipeline
+                        Strainers, Plumbing & Heating, Safety Relief Valves, Water Pressure Reducing Valves.</p>
+                </div>
+            </div>
+
+            <!-- Brand 3 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/Armstrong.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>Pumps: Armstrong manufacturer Hot Water Circulators, Wet Rotor Circulator, Variable Speed
+                        Circulators, Circulating Pumps with Union Connection.</p>
+                </div>
+            </div>
+            <!-- Brand 4 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/asco.jpeg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        EMERSON ASCO is the world leader in the control of uids – air, gas, water, oil and steam. ASCO o
+                        er
+                        the most comprehensive line of uid control solutions for a wide range of industry-focused
+                        application. ASCO have more than 50,000 highly reliable products encompassing solenoid valves,
+                        actuators and pressure & temperature switches.</p>
+                </div>
+            </div>
+            <!-- Brand 5 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/Buffaloes-Pump-1.png" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Since its inception Buffaloes Fire Pump Inc has manufactured and shipped thousands of fire pumps
+                        throughout the world. Their product line includes in line, end suction, horizontal split case
+                        and
+                        vertical turbine fire Pumps which are all FM approved.</p>
+                </div>
+            </div>
+            <!-- Brand 5 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/bell-and-gossett.png" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+
+                        Bell & Gossett is a leading manufacturer of pumps, valves, heat exchangers and accessories for
+                        plumbing, wastewater and HVAC — including steam and heat transfer — applications. Products
+                        Available-PUMPS & CIRCULATORS, CONTROLLERS, HEAT EXCHANGERS, FLOW BALANCING PRODUCTS, HVAC
+                        SYSTEMS
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 6 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/reptech.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        CATO Western REPTECH Gauges: Industrial Supply gauges, Special Gauges, Liquid Filled Gauges,
+                        Process
+                        Gauges, Dry Utility Gauges, Special Purpose Gauges, ermometers, Accessories.
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 7 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/chromax.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Chromalox delivers Temperature Management Solutions for piping systems, valves, and tanks,
+                        Process
+                        Heating Solutions for revenue-generating industrial processes, Component Heating Solutions for
+                        industrial equipment manufacturers.
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 9 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/dungo.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        DUNGS is a synonym for safe and clean gas combustion. They develop and manufacture innovative
+                        system
+                        solutions for the thermal and process heating industry and gas engines. Products Available
+                        BURNER,
+                        PRESSURE REGULATORS, PRESSURE SWITCHES, SOLENOID VALVE, ACTUATORS, ACCESSORIES
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 10 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/fr.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Franklin Electric is a global leader in the manufacturing and distribution of products and
+                        systems
+                        focused on the movement and management of water and fuel offering pumps, motors, drives, and
+                        controls for use in a wide variety of residential, commercial, agricultural, industrial, and
+                        municipal applications. Products Available: SUBMERSIBLE ELECTRIC MOTOR, PUMPS, MOTOR, DRIVES AND
+                        CONTROLS
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 11 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/Honeywell.png" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Honeywell Combustion Safety products offers the most comprehensive portfolio of safety and
+                        service
+                        offerings. Honeywell is your partner for all your combustion safety and service needs. Products
+                        Available: FLAME SAFETY CONTROLS, PRESSURE/TEMPERATURE CONTROLS, COMBUSTION VALVES, FLAME SAFETY
+                        CONTROLS
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 12 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/invensys-power-systems.png" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Invensys is now Schneider Electric Company Automation So ware Computer-based Automation Hardware
+                        Systems Temperature Controllers Control Systems
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 13 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/iit-controls (1).jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        ITT McDonnell & Miller: Boiler Controls and Power Switches. McDonnell and Miller are now part of
+                        ITT. e range of McDonnell & Miller in- cludes several products for the petrochemical and process
+                        industries. McDonnell & Miller specializes particularly in Boiler Controls and power switches.
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 14 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/keerthi.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        KEERTHI PUMPS INDIA PRIVATE LIMITED being one of the pioneers in manufacturing of energy
+                        efficient
+                        industrial pumps with its latest Hydraulic Design & Technology has emerged as a prestigious
+                        brand in
+                        domestic and Global markets. PRODUCTS AVAILABLE- DEWATERING, WATER PUMPS, CHEMICAL PROCESS
+                        PUMPS,
+                        SLURRY PUMPS, MIXED FLOW PUMPS, VERTICAL PUMPS, AXIAL FLOW PUMPS, MULTISTAGE PUMPS.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Brand 15 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/kunkil.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+
+                        Kunkle delivers quality products from cryogenic to high temperature and vacuum to high pressure
+                        Steam, Air, Gas, and Liquid applications. Top industrial and commercial safety relief valve.
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 16 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/keunkle.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Kunkle delivers quality products from cryogenic to high temperature and vacuum to high pressure
+                        Steam, Air, Gas, and Liquid applications. Top industrial and commercial safety relief valve.
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 17 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/Legend.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Legend o ers more than 9,000 products representing 80 plus product classes designed for
+                        residential,
+                        commercial and industrial applications. Everything you many need for behind the wall, Legend has
+                        the
+                        most expansive o ering of valves, ttings, tubing and components for plumbing and hydronic
+                        systems
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 18 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/lincoln.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Lincoln is a manufacturer of automated lubrication systems, manual lubrication equipment and
+                        industrial pumping systems, and subsidiary of SKF. We provide all their products including their
+                        HEAVY DUTY PUMPING PRODUCTS.
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 19 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/pentair-berkeley.png" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Filtration: Marine ltration, RV Filtration, DIY Series, Designer Water Treatment, Filtration
+                        Replacement Cartridges.
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 20 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/siemens.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Here you will nd Siemens’ comprehensive o ering for automation technology and the digitalization
+                        of
+                        production. Automation Systems, Industrial Controls, Industrial Communication.
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 21 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/squared.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Square D by Schneider Electric is over 100 years old and is still providing the marketplace with
+                        innovative products designed for electricity and automation management. Square D lighting
+                        controls
+                        and circuit breakers have been lighting up industrial applications safely and efficiently for
+                        years.
+                        Products Available: T BREAKERS, LOW VOLTAGE PRODUCTS AND SYSTEM, BUILDING AUTOMATION CONTROL
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 22 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/teadit.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        TEADIT® Group is recognized worldwide as a leader in the development and manufacturing of
+                        innovative
+                        products for critical uid sealing processes. e wide variety of sealing solutions developed by
+                        Teadit® have been important tools for many industries including the Re ning, Chemical Process,
+                        and
+                        Power Generation industries.
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 23 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/tel-tru.jpeg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Temperature Products: Tel-Tru is a manufacturer of bimetal and digital thermome- ters as well as
+                        other temperature instruments and related accessories. Pressure Gauges, pressure transmitters.
+                        Compost ermometer, Photo Development ermometer.
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 24 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/watson-mcdaniel-logo-250.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        For over 135 years, Watson McDaniel has been manufacturing a wide range of steam specialty and
+                        fluid
+                        products for the industrial marketplace. These time-tested products have made the operation of
+                        steam, compressed air, heat transfer and fluid systems substantially more effective and
+                        efficient.
+                        Products Available-STEAM PRESSURE/TEMP. REGULATORS, STEAM TRAPS, PRESSURE POWER PUMPS
+                    </p>
+                </div>
+            </div>
+            <!-- Brand 25 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/WattS.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Watts is a global leader in providing quality water solutions for residential, industrial,
+                        municipal, and commercial settings. Watts Products that we carry- HOT WATER AND STEAM
+                        SPECIALTIES,
+                        WATER SOFTENERS, PLUMBING AND FLOW CONTROL SOLUTIONS, WATER QUALITY
+                </div>
+            </div>
+            <!-- Brand 26 -->
+            <div class="row align-items-center brand-card">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/zurn.jpg" alt="Armstrong Logo" class="brand-logo">
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Zurn Water Control products are designed to be easily installed, easy to maintain and to last
+                        for
+                        the life of the system, saving time and money. DRAINAGE, FINISH PLUMBING, SEPARATION PEX, WATER
+                        CONTROL AND WATER SAFETY
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <center>
+            <a href="https://www.geindustrialsupplies.com/wp-content/themes/hello-elementor/assets/pdf/line-card-compressed.pdf "
+                class="btn btn-linecard">Download Line Card</a>
+        </center>
+
+    </section><br><br>
+
+
+
+    <footer class="bg-light py-5 border-top">
+        <div class="container">
+            <div class="row gy-4 align-items-start">
+
+                <!-- Quick Links -->
+                <div class="col-12 col-md-3">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="/index.html" class="text-decoration-none text-dark">Homepage</a></li>
+                        <li><a href="/pages/about.html" class="text-decoration-none text-dark">About Us</a></li>
+                        <li><a href="/pages/project.html" class="text-decoration-none text-dark">Projects</a></li>
+                        <li><a href="/pages/service.html" class="nav-link">Services</a></li>
+                        <li><a href="/pages/career.html" class="text-decoration-none text-dark">Career</a></li>
+                        <li><a href="/pages/contact.html" class="text-decoration-none text-dark">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Products -->
+                <div class="col-12 col-md-3">
+                    <h6 class="fw-bold mb-3">Products</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="/products/BeaconMedaes.html"
+                                class="text-decoration-none text-dark">BeaconMedaes</a></li>
+                        <li><a href="/products/Forbes Marshall.html" class="text-decoration-none text-dark">Forbes
+                                Marshall</a></li>
+                        <li><a href="/products/FSCurtis.html" class="text-decoration-none text-dark">FSCurtis</a></li>
+                        <li><a href="/products/Isel.html" class="text-decoration-none text-dark">Isel</a></li>
+                        <li><a href="/products/parker.html" class="text-decoration-none text-dark">Lochinvar</a></li>
+                        <li><a href="/products/parker.html" class="text-decoration-none text-dark">Parker</a></li>
+                        <li><a href="/products/Precision Boilers.html" class="nav-link">Precision Boilers</a></li>
+                        <li><a href="/products/Sensus.html" class="nav-link">Sensus</a></li>
+                        <li><a href="/products/US Seal MFQ.html" class="nav-link">US Seal MFQ</a></li>
+                        <li><a href="/pages/otherbrands.html" class="nav-link">Other Brands We Carry</a></li>
+                    </ul>
+                </div>
+
+                <!-- Logo Center -->
+                <div class="col-12 col-md-2 text-center">
+                    <img src="/assets/images/logo.png" alt="Logo" class="img-fluid mb-3" style="max-width: 120px;">
+                </div>
+
+                <!-- Contact Us + Social -->
+                <div class="col-12 col-md-4">
+                    <h6 class="fw-bold mb-3">Contact Us</h6>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-start mb-2">
+                            <i class="fas fa-phone-alt me-2 mt-1"></i>
+                            <a href="tel:+19155986137" class="text-decoration-none text-dark">(915) 598-6137 / (915)
+                                595-2068</a>
+                        </li>
+                        <li class="d-flex align-items-start mb-2">
+                            <i class="fas fa-envelope me-2 mt-1"></i>
+                            <a href="mailto:sales@geindustrialsupplies.com"
+                                class="text-decoration-none text-dark">sales@geindustrialsupplies.com</a>
+                        </li>
+                        <li class="d-flex align-items-start">
+                            <i class="fas fa-map-marker-alt me-2 mt-1"></i>
+                            <a href="https://maps.google.com/?q=857+Pendale+Rd,+El+Paso,+TX+79907" target="_blank"
+                                class="text-decoration-none text-dark">
+                                G&amp;E Industrial Supplies<br>857 Pendale Rd, El Paso, TX 79907
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Social Media -->
+                    <h6 class="fw-bold mt-4 mb-2">Connect Socially</h6>
+                    <div class="d-flex flex-wrap align-items-center gap-3">
+                        <a href="https://www.facebook.com/people/ge_industrialsupplies/100083177529930/#"
+                            class="text-dark fs-5"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/ge_industrialsupplies/?source=omni_redirect"
+                            class="text-dark fs-5"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCrC-rB3zKniotTSl99QdSOw" class="text-dark fs-5"><i
+                                class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/company/g-e-industrial-supplies-inc/"
+                            class="text-dark fs-5"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://x.com/geindustrial?t=A0Lsji2bMpgDLpLAGH7p_Q&s=08" class="text-dark fs-5"><i
+                                class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom bar -->
+            <div class="text-center mt-4 small text-muted">
+                © 2025 G&E Industrial Supplies. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const toggle = document.getElementById('productsToggle');
+        const submenu = document.getElementById('productsSubmenu');
+
+        toggle.addEventListener('click', function (e) {
+            e.preventDefault();
+            submenu.classList.toggle('show');
+            const expanded = submenu.classList.contains('show');
+            toggle.setAttribute('aria-expanded', expanded);
+        });
+    </script>
+    <script>
+        window.addEventListener('scroll', revealOnScroll);
+
+        function revealOnScroll() {
+            const elements = document.querySelectorAll('.scroll-fade');
+            const windowHeight = window.innerHeight;
+
+            elements.forEach(el => {
+                const position = el.getBoundingClientRect().top;
+                if (position < windowHeight - 50) {
+                    el.classList.add('show');
+                }
+            });
+        }
+
+        // Run on page load too
+        revealOnScroll();
+    </script>
+
+</body>
+
+</html>
